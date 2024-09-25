@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  width: 100%; 
+  background-color: #c6c9f0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+  align-items: center;
+}
+.logo {
+    width: 140px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.site-title {
+  color: #3b0e5e;
+}
+.navi {
+  text-align: center;
+}
+.navi a {
+  margin-right: 40px;
+  text-decoration: none;
+}
+.navi ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: #3b0e5e;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 550px;
+  width: 100%;
+}
+.menu-button {
+  padding: 10px 20px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid #640e96;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  width: 450px; 
+  text-align: center;
+}
+.menu-button:hover {
+  background-color: #bbb;
+}
+.menu a {
+  text-decoration: none;
+  color: #3b0e5e; 
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 550px;
+  width: 100%;
+}
+#table, #form {
+  text-align: center;
+}
+#table {
+  width: 900px;
+  border: 1;
+  background-color: #660066;
+}
+#tr1 {
+  background-color: #9933FF;
+  height: 80px;
+}
+#tr-nechet {
+  background-color: #FFFF66;
+  height: 50px;
+}
+#tr-chet {
+  background-color: #FF99FF;
+  height: 50px;
+}
+
+footer {
+  background-color: #c6c9f0;
+  text-align: center; 
+  padding: 20px; 
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+}
+footer p {
+  color: #3b0e5e;
+}
+
+.dropdown-toggle {
+  display: block;
+  position: relative;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
