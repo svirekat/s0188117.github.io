@@ -115,22 +115,3 @@ footer {
 footer p {
   color: #3b0e5e;
 }
-
-.dropdown-toggle {
-  display: block;
-  position: relative;
-  padding: 10px;
-  background-color: #eee;
-  border: 1px solid #ccc;
-}
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 150px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
