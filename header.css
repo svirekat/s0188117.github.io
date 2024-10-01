@@ -8,46 +8,33 @@ header {
   background-color: #c6c9f0;
   margin-bottom: 10px;
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row; 
-  align-items: center;
+  padding: 10px;
 }
 .logo {
     width: 140px;
     height: auto;
-    float: left;
-    margin-top: 10px;
-    margin-left: 60px;
-    margin-right: 20px;
     background-color: transparent;
 }
 .container {
   display: flex;
-  align-items: center;
   flex-direction: row;
+  justify-content: space-between; 
   width: 90%;
   margin-bottom: 20px;
 }
-.site-title {
-  color: #3b0e5e;
+.container a {
+  text-decoration: none;
+  margin-inline: 40px;
 }
-.navi {
+.namehead {
+  align-self: center;
   text-align: center;
 }
-.navi a {
-  margin-right: 40px;
-  text-decoration: none;
+.navi {
+  justify-content: space-between;
 }
-.navi ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  color: #3b0e5e;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
+
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -80,11 +67,12 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 550px;
+  margin-bottom: 100px;
   width: 100%;
 }
 #table, #form {
   text-align: center;
+  margin-bottom: 40px;
 }
 #table {
   width: 900px;
@@ -103,10 +91,13 @@ header {
   background-color: #FF99FF;
   height: 50px;
 }
-
+#lnk {
+  margin-bottom: 100px;
+  color: #ccdf22; 
+}
 footer {
   background-color: #c6c9f0;
-  text-align: center; 
+  text-align: left; 
   padding: 20px; 
   position: relative;
   bottom: 0;
