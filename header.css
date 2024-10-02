@@ -39,32 +39,6 @@ header {
 .navi {
   justify-content: space-between;
 }
-.menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 550px;
-  width: 100%;
-}
-.menu-button {
-  padding: 10px 20px;
-  margin: 10px 10px 10px 10px;
-  border: 2px solid #640e96;
-  border-radius: 5px;
-  background-color: #ccc;
-  cursor: pointer;
-  width: 450px; 
-  text-align: center;
-}
-.menu-button:hover {
-  background-color: #bbb;
-}
-.menu a {
-  text-decoration: none;
-  color: #3b0e5e; 
-}
 #main {
   margin-top: 20px;
   margin-bottom: 100px;
