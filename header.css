@@ -19,6 +19,7 @@ header {
 .logo {
     width: 140px;
     height: auto;
+    float: left;
     background-color: transparent;
 }
 .container {
