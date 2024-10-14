@@ -116,7 +116,7 @@ footer p {
 #hlist {
   order: 2;
 }
-@media (min-width: 768px) { 
+@media (min-width: 577px) { 
   #main {
     max-width: 960px;
     margin-top: 20px;
@@ -133,22 +133,19 @@ footer p {
   .navi {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    top: 0;
-    right: 0;
-    margin-top: 0%;
-    margin-right: 0%;
+    text-align: right;
   }
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     text-wrap: nowrap;
     width: 100%;
-    margin-bottom: 20px; 
   }
   .container a {
     margin-inline: 3%;
+  }
+  .headercontent {
+    width: 150%;
   }
   .namehead {
     align-self: center;
