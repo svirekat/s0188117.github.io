@@ -92,6 +92,16 @@ footer {
 footer p {
   color: #3b0e5e;
 }
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+#htable {
+  order: 1;
+}
+#hlist {
+  order: 2;
+}
 @media (min-width: 768px) { 
   #main {
     max-width: 960px;
@@ -99,5 +109,11 @@ footer p {
     margin-bottom: 100px;
     margin-right: 20%;
     margin-left: 20%;
+  }
+  #htable {
+    order: 2;
+  }
+  #hlist {
+    order: 1;
   }
 } 
