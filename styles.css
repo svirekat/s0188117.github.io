@@ -41,10 +41,9 @@ header {
   justify-content: space-between;
 }
 #main {
+  flex: 1;
   margin-top: 20px;
   margin-bottom: 100px;
-  margin-right: 20%;
-  margin-left: 20%;
 }
 .content {
   display: flex;
@@ -93,3 +92,12 @@ footer {
 footer p {
   color: #3b0e5e;
 }
+@media (min-width: 768px) { 
+  #main {
+    max-width: 960px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+} 
