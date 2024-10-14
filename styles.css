@@ -34,17 +34,24 @@ header {
 .namehead {
   align-self: center;
 }
+.navigator {
+  height: 0px;
+}
 .navi {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 100px;
+  top: 30px;
   right: 10px;
   margin: 0 auto;
   width: 100%;
   background-color: #c6c9f0;
   align-self: center;
   text-align: left;
+}
+.navi ul {
+  display: flex;
+  flex-direction: column;
 }
 .headercontent {
   display:flex;
@@ -133,19 +140,32 @@ footer p {
   .navi {
     display: flex;
     flex-direction: row;
-    text-align: right;
+    align-self: flex-start;
+  }
+  .navigator {
+    height: auto;
+  }
+  .navigator nav {
+    position: absolute;
+    top:0;
+  }
+  .navi ul {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right:5%;
   }
   .container {
     display: flex;
     flex-direction: row;
     text-wrap: nowrap;
-    width: 100%;
+    width: 60%;
   }
   .container a {
     margin-inline: 3%;
   }
   .headercontent {
-    width: 150%;
+    width: 100%;
   }
   .namehead {
     align-self: center;
