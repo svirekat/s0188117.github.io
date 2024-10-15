@@ -174,3 +174,15 @@ footer p {
     text-align: center;
   }
 } 
+@media (max-width: 577 px) {
+  .content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+#htable {
+  order: 1;
+}
+#hlist {
+  order: 2;
+}
+}
