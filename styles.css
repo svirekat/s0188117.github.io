@@ -81,7 +81,7 @@ header {
   text-align: center;
 }
 #table {
-  margin: 10%;
+  width: 100%;
   border: solid black;
 }
 #tr1 {
