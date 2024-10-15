@@ -48,6 +48,7 @@ header {
   background-color: #c6c9f0;
   align-self: center;
   text-align: left;
+  margin-bottom: 20px;
 }
 .navi ul {
   display: flex;
@@ -143,6 +144,7 @@ footer p {
   }
   .navigator {
     height: auto;
+    margin-bottom: 0px;
   }
   .navigator nav {
     position: absolute;
