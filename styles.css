@@ -48,6 +48,7 @@ header {
   background-color: #c6c9f0;
   align-self: center;
   text-align: left;
+  margin-bottom: 30%;
 }
 .navi ul {
   display: flex;
@@ -135,7 +136,6 @@ footer p {
   }
   #htable {
     order: 2;
-    margin-top: 40px;
   }
   #hlist {
     order: 1;
