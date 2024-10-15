@@ -37,29 +37,7 @@ header {
 .navigator {
   height: 0px;
 }
-.navi {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 30px;
-  right: 10px;
-  margin: 0 auto;
-  width: 100%;
-  background-color: #c6c9f0;
-  align-self: center;
-  text-align: left;
-}
-.navi ul {
-  display: flex;
-  flex-direction: column;
-}
-.headercontent {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 10%;
-  align-items: center;
-}
+
 #main {
   flex: 1;
   margin-top: 20px;
@@ -120,11 +98,34 @@ footer p {
   display: flex;
   flex-direction: column;
 }
-#htable {
-  order: 1;
+  #htable {
+    order: 1;
+  }
+  #hlist {
+    order: 2;
+  }
+  .navi {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 30px;
+  right: 10px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #c6c9f0;
+  align-self: center;
+  text-align: left;
 }
-#hlist {
-  order: 2;
+.navi ul {
+  display: flex;
+  flex-direction: column;
+}
+.headercontent {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10%;
+  align-items: center;
 }
 }
 @media (min-width: 577px) { 
