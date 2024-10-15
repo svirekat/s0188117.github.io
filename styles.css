@@ -126,7 +126,7 @@ footer p {
   padding-right: 10%;
   align-items: center;
 }
-@media (min-width: 900px) { 
+@media (min-width: 1000px) { 
   #main {
     max-width: 960px;
     margin-top: 20px;
