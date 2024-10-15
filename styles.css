@@ -93,8 +93,7 @@ footer {
 footer p {
   color: #3b0e5e;
 }
-@media (max-width: 577 px) {
-  .content-wrapper {
+.content-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -127,8 +126,7 @@ footer p {
   padding-right: 10%;
   align-items: center;
 }
-}
-@media (min-width: 577px) { 
+@media (min-width: 900px) { 
   #main {
     max-width: 960px;
     margin-top: 20px;
