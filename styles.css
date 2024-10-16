@@ -1,6 +1,8 @@
+html {
+  overflow-y: hidden;
+}
 body {
   margin: 0;
-  width: 100%
   font-family: sans-serif;
   background-color: #e6e6fa;
   display: flex;
@@ -142,7 +144,6 @@ footer p {
   .navi {
     display: flex;
     flex-direction: row;
-    align-self: flex-start;
   }
   .navigator {
     height: auto;
@@ -163,7 +164,7 @@ footer p {
     width: 60%;
   }
   .container a {
-    margin-inline: 3%;
+    margin-inline: 13%;
   }
   .headercontent {
     width: 100%;
