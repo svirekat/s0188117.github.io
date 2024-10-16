@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 100%
   font-family: sans-serif;
   background-color: #e6e6fa;
   display: flex;
