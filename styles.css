@@ -154,7 +154,6 @@ footer p {
     display: flex;
     flex-direction: row;
     position: absolute;
-    right:5%;
   }
   .container {
     display: flex;
