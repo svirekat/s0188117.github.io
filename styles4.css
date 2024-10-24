@@ -1,4 +1,12 @@
-
 #header, #footer {
   background-color: #aba5fd;
+}
+#table {
+  border: solid black;
+}
+#tr-chet {
+  background-color: rgb(151, 171, 197);
+}
+#tr-nechet {
+  background-color: rgb(225, 145, 228);
 }
