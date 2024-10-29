@@ -14,3 +14,6 @@
   background-color: white;
   height: 15px;
 }
+.navbar {
+  justify-content: end;
+}
