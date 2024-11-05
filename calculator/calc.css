@@ -79,7 +79,6 @@ body {
 }
 .image-item img {
     width: 100%;
-    height: auto;
     border: 1px solid #9d1dbd;
     border-radius: 5px;
 }
