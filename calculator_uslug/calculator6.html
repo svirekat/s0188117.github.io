@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Калькулятор стоимости услуги</title>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Калькулятор стоимости услуги</h1>
+        <link rel="stylesheet" href="calc6.css">
+
+        <div class="input-group">
+            <label for="quantity">Количество: </label>
+            <input type="number" id="quantity" min="1" value="1">
+        </div>
+        <div class="input-group">
+        <label for="product">№ торта: </label>
+            <select id="product" name="product-number">
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+            </select>
+        </div>
+        <div class="radioknopki"> 
+            <div class="rad">
+                <input type="radio" id="courier1" name="servicetype" value="400">
+                <label for="courier1">Доставить сегодня</label>
+            </div>
+            <div class="rad">
+                <input type="radio" id="courier2" name="servicetype" value="200" checked>
+                <label for="courier2">Доставить завтра</label>
+            </div>
+            <div class="rad">
+                <input type="radio" id="pickup" name="servicetype" value="0" checked>
+                <label for="pickup">Самовывоз</label>
+            </div>
+        </div>
+
+        <div class="select-group" id="productOptions">
+           <label for="diameter">Диаметр: </label>
+            <select id="diameter" name="diameter">
+            </select>
+        </div>
+        <div class="checkb" id="checklenta">
+            <input type="checkbox" id="lenta">
+            <label for="lenta">Перевязать коробку лентой</label><br>
+        </div>
+
+        <p id="cost"></p>
+        <p id="error"></p>
+  </div>
+
+  <div class="images">
+    <div class="image-item">
+      <img src="cake1.jpg" alt="Картинка 1">
+      <p>Торт 1</p>
+    </div>
+    <div class="image-item">
+      <img src="cake2.jpg" alt="Картинка 2">
+      <p>Торт 2</p>
+    </div>
+    <div class="image-item">
+      <img src="cake3.jpg" alt="Картинка 3">
+      <p>Торт 3</p>
+    </div>
+    <div class="image-item">
+      <img src="cake4.jpg" alt="Картинка 4">
+      <p>Торт 4</p>
+    </div>
+  </div>
+
+</div>
+<script src="calcscript6.js" defer></script>
+</body>
+</html>
