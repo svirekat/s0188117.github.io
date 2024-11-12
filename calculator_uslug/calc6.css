@@ -4,7 +4,7 @@ body {
     background-size: 20%;
 }
 #error {
-    color: white;
+    color: black;
 }
 #quantity.error {
     border: 2px solid red;
