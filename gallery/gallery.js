@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     breakpoints: {
@@ -19,3 +20,4 @@ totalPages.textContent = swiper.slides.length;
 swiper.on('slideChange', () => {
     currentPage.textContent = swiper.realIndex + 1; 
 });
+})
