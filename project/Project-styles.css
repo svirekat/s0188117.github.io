@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+}
+
+.header-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обеспечивает, что видео будет полностью покрывать область */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрирование контента */
+    color: white;
+    text-align: center;
+    z-index: 1; /* Обеспечивает, что текст будет поверх видео */
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.header-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(221, 83, 83, 0.7); /* Полупрозрачный красный фон */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.header-button:hover {
+    background-color: rgba(255, 0, 0, 1); /* Меняем цвет фона при наведении */
+}
+.text-blocks {
+    display: flex; /* Используем Flexbox для размещения столбцов */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    margin-top: 20px; /* Отступ сверху для текстовых блоков */
+}
+
+.column {
+    margin: 0 20px; /* Отступ между столбцами */
+}
+
+.block {
+    height: 100px;
+    width: 160px;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    margin: 10px 0; /* Отступ между блоками */
+    z-index: 1;
+}
+.block h3 {
+    font-size: 3em;
+}
+.block h4 {
+    font-size: 2em;
+}
+.block p {
+    font-size: 0.7em;
+}
+.hp {
+    display: flex;
+    flex-direction: row;
+}
+.hp img {
+    height: 50px;
+    width: auto;
+}
