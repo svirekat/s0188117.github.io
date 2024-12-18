@@ -425,3 +425,70 @@ body {
     padding: 10px;
     border-top: none;
 }
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    color: #e0d6d6;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.form-wrapper {
+    flex: 1;
+    margin-right: 20px;
+}
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-description {
+    margin-bottom: 20px;
+}
+.form-contacts ul {
+    list-style: none;
+    padding: 0;
+}
+.form-contacts li {
+    margin-bottom: 5px;
+}
+.form-column {
+    flex: 1;
+}
+.form-phone {
+    font-size: 1.4em;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid #969595;
+    border-radius: 5%;
+}
+.checkbox-wrapper {
+    margin-bottom: 10px;
+}
+.checkbox-wrapper a {
+    text-decoration: none;
+    color: orangered;
+}
+button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff5024;
+}
