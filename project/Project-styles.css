@@ -66,6 +66,7 @@ body {
 .block {
     height: 100px;
     width: 160px;
+    border-left: 4px solid rgb(248, 116, 40);
     color: white;
     text-align: left;
     padding: 15px;
@@ -88,4 +89,104 @@ body {
 .hp img {
     height: 50px;
     width: auto;
+}
+.competenc {
+    color: black;
+    padding-left: 5%;
+}
+.competenc h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.text-blocks-comp {
+    display: flex; /* Используем Flexbox для размещения столбцов */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.comp-block {
+    height: 150px;
+    width: 160px;
+    color: gray;
+    font-size: small;
+    text-align: left;
+    padding: 15px;
+    margin: 20px 0; /* Отступ между блоками */
+}
+.support {
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.support h2 {
+    text-align: center;
+}
+.support h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.support h5, .support p {
+    color: gray;
+}
+.sup-block-1,
+.sup-block-2,
+.sup-block-3,
+.sup-block-4,
+.sup-block-5,
+.sup-block-6,
+.sup-block-7,
+.sup-block-8 {
+    height: 200px;
+    padding: 5%;
+    border-radius: 5%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.sup-block-1 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support1.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+}
+.sup-block-2 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support2.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+}
+.sup-block-3 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support3.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+}
+.sup-block-4 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support4.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+}
+.sup-block-5 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support5.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+}
+.sup-block-6 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support6.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+}
+.sup-block-7 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support7.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+}
+.sup-block-8 {
+    background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support8.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
 }
