@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Italic-VariableFont_wght.ttf') format('ttf'),
+         url('Montserrat-VariableFont_wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +12,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -43,8 +50,7 @@ body {
     padding: 10px 20px;
     font-size: 1.2em;
     color: white;
-    background-color: rgba(221, 83, 83, 0.7); /* Полупрозрачный красный фон */
-    border: none;
+    border: 2px solid rgba(221, 83, 83, 0.7);
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
@@ -112,14 +118,21 @@ body {
     text-align: left;
     padding: 15px;
     margin: 20px 0; /* Отступ между блоками */
+    
 }
 .support {
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: transparent;
 }
 .support h2 {
     text-align: center;
+    margin-bottom: 8%;
 }
 .support h3 {
     margin-top: 10px;
@@ -141,6 +154,8 @@ body {
     border-radius: 5%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
+    background-color: white;
+    padding-right: 20%;
 }
 .sup-block-1 {
     background: url("file:///C:/Users/ekete/Downloads/project/project/project/img/support1.svg");
@@ -197,7 +212,6 @@ body {
     background-color: black;
     position: relative;
     bottom: 140px;
-    z-index: 1;
 }
 .expert h2 {
     color: white;
@@ -220,4 +234,74 @@ body {
 }
 .p-orange {
     color: orangered;
+}
+.expert img {
+    width: 80%;
+    height: auto;
+}
+.expert-img {
+    position: relative;
+    top: 65px;
+    z-index: 4;
+}
+.tarif {
+    background-color: rgb(255, 192, 203);
+    padding-top: 20%;
+    position: relative;
+    bottom: 140px;
+    z-index: 2;
+}
+.tarif-block {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    background-color: white;
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 1%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 10%;
+}
+.tarif h2 {
+    text-align: center;
+}
+.tarif h3 {
+    color: orangered;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    padding: 5%;
+    margin-top: 5%;
+}
+.tarif p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.tarif-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid orangered;
+    border-radius: 3%;
+    height: 50px;
+}
+.tarif-button:hover {
+    background-color: rgb(226, 60, 38); 
+    color: white;
+}
+.tarif-button a {
+    text-decoration: none;
+    font-size: medium;
+    color: orangered;
+}
+.tarif-text p {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(143, 143, 143);
+    margin: 5% 15% 5% 15%;
+}
+.tarif-text a {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-bottom: 15%;
+    text-decoration-line: underline;
 }
