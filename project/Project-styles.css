@@ -305,3 +305,76 @@ body {
     padding-bottom: 15%;
     text-decoration-line: underline;
 }
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.time img {
+    padding-right: 0%;
+}
+.time h3 {
+    margin: 10%;
+    margin-top: 10%;
+}
+.time-block {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10%;
+}
+
+.command {
+    display: flex; /* Используем Flexbox для размещения столбцов */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.command-block {
+    height: 250px;
+    width: 160px;
+    color: gray;
+    font-size: small;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+.command img {
+    width: 100%;
+}
+.com-h1 {
+    text-align: center;
+}
+.command h4 {
+    color: black;
+}
+
+.cases {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cases h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.cases h4 {
+    margin-top: 5%;
+}
+.cases p {
+    font-size: small;
+    color: rgb(97, 97, 97);
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.cases h5 {
+    color: rgb(97, 97, 97);
+}
+.img-1 ,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 10%;
+}
