@@ -378,3 +378,50 @@ body {
     border-radius: 5%;
     margin-top: 10%;
 }
+.reviews {
+    padding: 10%;
+}
+.reviews h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.reviews a {
+    color: black;
+}
+.rev-text{
+    color: gray;
+}
+.reviews img {
+    width: 100px;
+    height: auto;
+}
+.snami h2 {
+    text-align: center;
+    margin-top: 10% 0 10% 0;
+}
+.snami p {
+    text-align: left;
+    color: rgb(71, 71, 71);
+    padding: 10%;
+}
+
+.faq h1 {
+    text-align: center;
+}
+.faq-item {
+    border: 1px solid transparent; /* Изначально рамка прозрачная */
+    padding: 10px;
+}
+.question {
+    color: black; /* Изначальный цвет текста */
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.answer {
+    display: none; /* Скрываем ответ по умолчанию */
+    padding: 10px;
+    border-top: none;
+}
