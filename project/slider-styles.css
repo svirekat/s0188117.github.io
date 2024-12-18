@@ -1,0 +1,43 @@
+.swiper-container {
+    width: 100%; 
+    border: 1px solid gray;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.swiper-wrapper {
+    padding: 10% 0 10% 0;
+}
+.swiper-slide {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top: 1px solid gray;
+}
+.pagination-text {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin: 10%;
+
+}
+.current-page {
+    color: black;
+}
+.total-pages {
+    color: rgb(158, 158, 158);
+}
