@@ -481,7 +481,7 @@ body {
     text-decoration: none;
     color: orangered;
 }
-button {
+.buttonb {
     background-color: orangered;
     color: white;
     border: none;
@@ -489,7 +489,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-button:hover {
+.buttonb:hover {
     background-color: #ff5024;
 }
 
