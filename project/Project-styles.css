@@ -492,3 +492,68 @@ button {
 button:hover {
     background-color: #ff5024;
 }
+
+.navbar {
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(61, 62, 63);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    padding-top: 2%;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px; 
+    height: 15px; 
+    margin-right: 5px;
+}
+.bar {
+    height: 3px; 
+    background-color: #fff; 
+    border-radius: 2px; 
+}
+.dropdown {
+    display: none;
+    background-color: black;
+    color: #e0d6d6;
+    text-align: left;
+}
+.show {
+    display: block; /* Показать меню, когда добавлен класс .show */
+}
+.dropbtn, .dropbtn1 {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.nav_list, .dropdown_list1, .dropdown_list2 {
+    list-style: none;
+}
+.dropdown_list1, .dropdown_list2 {
+    display: none; /* Скрыть дропдауны по умолчанию */
+}
+
+.dropdown_list1.show, .dropdown_list2.show {
+    display: block; /* Показать дропдауны, когда добавлен класс .show */
+}
+.nav_item, .dropdown_item {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid gray;
+}
+.header-logo {
+    padding: 3%;
+}
+.dropdown a {
+    text-decoration: none;
+    color: azure;
+}
