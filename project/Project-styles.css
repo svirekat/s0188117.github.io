@@ -559,3 +559,59 @@ body {
     text-decoration: none;
     color: azure;
 }
+
+@media (min-width: 768px) {
+    .navbar {
+        margin-top: 0;
+        background-color: transparent;
+        
+    }
+    .flex-cont {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+    }
+    .hamburger {
+        display: none;
+    }
+    .navbar img {
+        height: 20px;
+        width: auto;
+    }
+    .dropdown {
+        display: block;
+        background-color: transparent;
+    }
+    .nav_list {
+        display: flex;
+        flex-direction: row;
+        font-size: 0.6em;
+        align-items: baseline;
+    }
+    .nav_item, .dropdown_item {
+        padding-bottom: 0;
+        border: none;
+        margin-right: 13px;
+    }
+    #podderjka {
+        text-decoration: underline;
+        text-decoration-color: orangered;
+    }
+    .dropbtn, .dropbtn1 {
+        background-color: transparent;
+        font-size: 1em;
+        color: white;
+        border: none;
+        margin-right: 13px;
+    }
+    .flex-cont {
+        display: flex;
+        flex-direction: row;
+    }
+    .header-content {
+        margin-top: 50px;
+    }
+    .text-blocks {
+        margin-top: 0;
+    }
+}
