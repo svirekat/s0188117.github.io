@@ -139,6 +139,23 @@ body {
     margin: 20px 0; /* Отступ между блоками */
     
 }
+@media (min-width: 768px) {
+    .competenc {
+        margin-left: 20%;
+    }
+    .text-blocks-comp {
+        display: flex;
+        flex-direction: column;
+    }
+    .comp-column {
+        display: flex;
+        flex-direction: row;
+    }
+    .competenc_text {
+        width: 40%;
+    }
+}
+
 .support {
     justify-content: center;
     padding-left: 5%;
