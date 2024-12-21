@@ -495,8 +495,10 @@ body {
 
 .navbar {
     width: 100%;
-    margin-top: 30px;
     background-color: black;
+    position: absolute;
+    margin-top: 370px;
+    z-index: 15;
 }
 .container {
     display: flex;
