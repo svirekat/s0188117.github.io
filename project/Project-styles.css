@@ -60,9 +60,9 @@ body {
     background-color: rgba(255, 0, 0, 1); /* Меняем цвет фона при наведении */
 }
 .text-blocks {
-    display: flex; /* Используем Flexbox для размещения столбцов */
-    justify-content: center; /* Центрируем содержимое по горизонтали */
-    margin-top: 20px; /* Отступ сверху для текстовых блоков */
+    display: flex; 
+    justify-content: center;
+    margin-top: 150px; 
 }
 
 .column {
