@@ -243,6 +243,46 @@ body {
     background-color: white;
     z-index: 3;
 }
+@media (min-width: 768px) {
+    .support {
+        z-index: 3;
+    }
+    .support-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .sup-block-1,
+    .sup-block-2,
+    .sup-block-3,
+    .sup-block-4,
+    .sup-block-5,
+    .sup-block-6,
+    .sup-block-7,
+    .sup-block-8 {
+        width: 180px;
+        height: 200px;
+        padding: 1%;
+        background-color: white;
+        border-radius: 2%;
+        margin-inline: 3px;
+        margin-bottom: 5px;
+        background-size: 28%;
+    }
+    .support h2 {
+        margin-bottom: 2%;
+        margin-top: 8%;
+    }
+    .support h3 {
+        font-size: 1em;
+    }
+    .support p {
+        font-size: 0.8em;
+    }
+    .expert {
+        bottom: 0;
+    }
+}
 
 .expert {
     background-color: black;
