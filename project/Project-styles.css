@@ -320,6 +320,43 @@ body {
     top: 65px;
     z-index: 4;
 }
+@media (min-width: 768px) {
+    .expert {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .expert h2 {
+        padding-left: 0;
+        padding-right: 40%;
+    }
+    .expert-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .expert-block {
+        padding-right: 5%;
+        padding-left: 2%;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 220px;
+        font-size: 0.8em;
+        height: unset;
+    }
+    .expert-img {
+        top: 220px;
+        width: auto;
+    }
+    .expert img {
+        height: 300px;
+        width: auto;
+    }
+    .right-expert-content {
+        margin-bottom: 80px;
+        margin-right: 50px;
+    }
+}
+
 .tarif {
     background-color: rgb(255, 192, 203);
     padding-top: 20%;
