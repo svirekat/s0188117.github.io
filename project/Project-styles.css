@@ -711,7 +711,10 @@ body {
         height: 600px;
     }
 }
-
+.faq {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
 .faq h1 {
     text-align: center;
 }
