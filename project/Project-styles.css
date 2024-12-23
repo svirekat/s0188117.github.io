@@ -793,6 +793,27 @@ body {
 .buttonb:hover {
     background-color: #ff5024;
 }
+@media (min-width: 768px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .form-wrapper {
+        padding-left: 15%;
+        padding-top: 0;
+    }
+    .form-wrapper a {
+        color: white;
+    }
+    .form-column {
+        padding-right: 15%;
+    }
+    .form-contacts {
+        margin-top: 50px;
+    }
+}
+
 
 .navbar {
     width: 100%;
@@ -802,7 +823,7 @@ body {
     z-index: 15;
 }
 .logo {
-    padding-top: 10%;
+    padding-top: 2%;
 }
 .hamburger {
     display: flex;
