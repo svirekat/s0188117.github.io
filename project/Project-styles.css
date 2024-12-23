@@ -520,6 +520,16 @@ body {
 .command h4 {
     color: black;
 }
+@media (min-width: 768px) {
+    .command {
+        flex-direction: column;
+        align-items: center;
+    }
+    .command-column {
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 .cases {
     padding-left: 10%;
